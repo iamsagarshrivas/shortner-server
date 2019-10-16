@@ -1,5 +1,5 @@
 module.exports = {
-	URL: "http://localhost:9001",
-	NOT_FOUND_URL: "http://localhost:4200/error/not-found",
-	CLIENT_URL: "http://localhost:4200/app/redirect"
+	URL: "www.minuz.tk/api",
+	NOT_FOUND_URL: "www.minuz.tk/error",
+	CLIENT_URL: "http://www.minuz.tk"
 }
