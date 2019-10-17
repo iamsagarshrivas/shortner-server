@@ -11,7 +11,7 @@ module.exports = {
 	},
 	originalURL: async({body},res)=>{		
 		try{
-			let weblink = await WeblinksService.findOne({shortLink: body.shortURL});
+			let weblink = await WeblinksService.findOneAndUpdate({shortLink: body.shortURL},{$inc:{visitCount: 1}});
 			res.status(200).json({error:false, originalLink: weblink.originalLink})
 		}catch(error){
 			console.log('[ERROR]:',error);
