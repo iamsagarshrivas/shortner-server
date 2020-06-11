@@ -1,5 +1,3 @@
-# Refund Cancellation Restful API's
-
 See the API's [documentation](DOCS.md).
 
 ## Commands
